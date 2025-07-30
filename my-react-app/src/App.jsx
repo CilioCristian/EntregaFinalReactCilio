@@ -1,7 +1,7 @@
 
 import React from 'react';
 import NavBar from '../src/Componentes/NavBar/NavBar';
-import Items from '../src/Componentes/Items/Items';
+import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer';
 
 
 
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Items greeting="¡Bienvenido a nuestra tienda!" />
+      <ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
     </>
   );
 };

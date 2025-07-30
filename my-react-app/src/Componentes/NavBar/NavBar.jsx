@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Carrito from '../Carrito/Carrito';
+import CartWidget from '../CartWidget/CartWidget';
 import '../NavBar/NavBar.css';
 
 const NavBar = () => {
@@ -12,7 +12,7 @@ const NavBar = () => {
         <li><a href="#">Productos</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
-      <Carrito />
+      <CartWidget />
     </nav>
   );
 };
