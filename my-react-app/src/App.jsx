@@ -5,7 +5,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Carrito from "./Components/Carrito/Carrito";
 import Checkout from "./Components/Checkout/Checkout";
 import ItemDetailContainer from "./containers/ItemDetailContainer";
-import ItemListContainer from "./containers/ItemListContainer"; // ojo: corregido ItemlistContainer → ItemListContainer
+import ItemListContainer from "./containers/ItemlistContainer";
 import CarritoProvider from "./context/CarritoProvider";
 import "./index.css";
 
