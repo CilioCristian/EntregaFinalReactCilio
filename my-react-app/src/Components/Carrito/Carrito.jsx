@@ -31,7 +31,7 @@ export default function Carrito() {
         <tbody>
           {carritoItems.map(item => (
             <tr key={item.id}>
-              <td>{item.titulo}{item.descripcion}</td>
+              <td>{item.descripcion}</td>
               <td>{item.cantidad}</td>
               <td>${item.precio}</td>
               <td>${item.cantidad * item.precio}</td>
