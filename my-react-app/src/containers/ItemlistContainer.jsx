@@ -1,6 +1,6 @@
 // src/containers/ItemListContainer.jsx
 import React, { useEffect, useState } from "react";
-import ItemList from "../components/ItemList/ItemList";
+import ItemList from "../Components/ItemList/ItemList";
 import { obtenerProductos } from "../firebase/firestoreService";
 import "./ItemListContainer.css";
 
