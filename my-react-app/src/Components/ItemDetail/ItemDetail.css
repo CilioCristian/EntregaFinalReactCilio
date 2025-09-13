@@ -1,0 +1,23 @@
+/*item-detail*/
+.itemdetail-container {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.detalle-imagen {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detalle-info {
+  max-width: 500px;
+}
+
+.detalle-precio {
+  font-weight: bold;
+  margin-top: 8px;
+}

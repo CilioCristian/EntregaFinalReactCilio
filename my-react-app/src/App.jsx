@@ -1,17 +1,24 @@
+import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import React from 'react';
-import NavBar from '../src/Componentes/NavBar/NavBar';
-import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer';
+import NavBar from "./Components/NavBar/NavBar";
+import Carrito from "./Components/Carrito/Carrito";
+import Checkout from "./Components/Checkout/Checkout";
+import ItemDetailContainer from "./containers/ItemDetailContainer";
+import ItemListContainer from "./containers/ItemListContainer";
+import CarritoProvider from "./context/CarritoProvider";
+import "./index.css";
 
-
-
-const App = () => {
+export default function App() {
   return (
-    <>
+    <CarritoProvider>
       <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
-    </>
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+        <Route path="/item/:idProducto" element={<ItemDetailContainer />} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+    </CarritoProvider>
   );
-};
-
-export default App;
+}

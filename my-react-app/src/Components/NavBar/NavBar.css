@@ -1,0 +1,28 @@
+/*navbar*/
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color:  #77bec0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}

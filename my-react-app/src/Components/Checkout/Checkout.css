@@ -1,0 +1,36 @@
+.checkout-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form input {
+  padding: 6px 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-form button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkout-form button:hover {
+  background-color: #218838;
+}
