@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import ItemList from "../components/ItemList/ItemList";
 import { obtenerProductos } from "../firebase/firestoreService";
+import "./ItemListContainer.css";
 
 export default function ItemListContainer() {
   const [productos, setProductos] = useState([]);
